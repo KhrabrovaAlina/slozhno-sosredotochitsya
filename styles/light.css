@@ -9,4 +9,33 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --display-rec: none;
+  --background-photo: url(../images/cover-image-light.png);
+  --background-color: #fff1f7;
+  --font-color: #353430;
+  --title-decor: #ff8dcb;
+  --stylish-text__color: #ffc2e6;
+  --answer-title__color: #353430;
+  --answer-description__color: #353430;
+  --border-style: 1px solid #353430;
+  --border-style__hover: 1px solid rgba(50, 49, 45, 0.4);
+  --action-border: #353430;
+  --link-shadow: rgba(255, 141, 203, 0.8);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+  --display-rec: none;
+  --background-photo: url(../images/cover-image-light.png);
+  --background-color: #fff1f7;
+  --font-color: #353430;
+  --title-decor: #ff8dcb;
+  --stylish-text__color: #ffc2e6;
+  --answer-title__color: #353430;
+  --answer-description__color: #353430;
+  --border-style: 1px solid #353430;
+  --border-style__hover: 1px solid rgba(50, 49, 45, 0.4);
+  --action-border: #353430;
+  --link-shadow: rgba(255, 141, 203, 0.8);
+  }
 }
