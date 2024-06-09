@@ -7,8 +7,8 @@
     <meta name="color-scheme" content="dark light">
     <link rel="icon" href="./images/favicon.ico" sizes="any">
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
-    <link rel="icon" href="./images/mobile-icon.png"type="image/png"/>
-    <link rel="stylesheet" href="./fonts/fonts">
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png" type="image/png"/>
+    <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="./styles/variables.css">
     <link rel="stylesheet" href="./styles/globals.css">
     <link rel="stylesheet" href="./styles/style.css">
@@ -46,22 +46,22 @@
             </button>
           </li>
         </ul>
-        <ul class="header__decoration-rec" aria-hidden="true">
-          <li class="marker-rec"></li>
-        </ul>
+        <span class="header__decoration-rec" aria-hidden="true">
+          <span class="marker-rec"></span>
+        </span>
       </nav>
       <h1 class="title stylish__title">no focus</h1>
-      <p class="description title__decor">
-        Что делать, когда не можешь делать ничего<br>
-        Или почему нам так сложно сконцентрироваться,<br>особенно когда очень надо
-      </p>
+      <div class="description title__decor">
+       <p> Что делать, когда не можешь делать ничего</p> 
+       <p> Или почему нам так сложно сконцентрироваться, особенно когда очень надо</p> 
+      </div>
     </header>
 
     <!-- Content -->
 
     <main class="main content">
-      <section class="first__section">
-        <h2 class="section-title">Почему сосредоточиться так<br>сложно</h2>
+      <section class="reason__section">
+        <h2 class="section-title">Почему сосредоточиться так сложно</h2>
         <div class="answer__container">
           <article class="card__answer">
             <h3 class="answer__title title__decor">Многозадачность</h3>
@@ -97,12 +97,12 @@
           </article>
         </div>
       </section>
-      <section class="second__section">
-        <h2 class="section-title second__card-answer-size">
-          Что снижает концентрацию<br/> внимания?
+      <section class="cause__section">
+        <h2 class="section-title">
+          Что снижает концентрацию внимания?
         </h2>
-        <div class="second__answer-container">
-          <article class="card__answer second__card-answer-size">
+        <div class="cause__answer-container">
+          <article class="card__answer cause__card-answer-size">
             <h3 class="answer__title title__decor">Многозадачность</h3>
             <p class="answer__description">
               Как концентрация может снижаться из-за… концентрации? Любая
@@ -139,9 +139,9 @@
         </div>
       </section>
 
-      <section class="third__section">
+      <section class="advice__section">
         <h2 class="section-title">
-          Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
+          Как концентрироваться лучше,чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
         <div class="column__answer-container">
@@ -220,7 +220,7 @@
 
     <section class="gallery">
       <h2 class="answer__title title__decor">А можно в картинках?</h2>
-      <picture  class="gallery__list">
+      <div  class="gallery__list">
         <img
           class="sunset__image"
           src="./images/sunset.png"
@@ -250,14 +250,13 @@
         src="./images/street.png"
         alt="Изображение пустой улицы"
         loading="lazy"
-        ></picture>
-    </div>
+        ></div>
   </section>
 </main>
 
 <!-- Cекция Footer -->
 
-<footer class="footer decorated-zone">
+<footer class="footer footer-zone">
   <h2 class="stylish__title">focus</h2>
 </footer>
 

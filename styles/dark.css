@@ -21,6 +21,7 @@
   --border-style__hover: 1px solid rgba(255, 0, 112, 0.4);
   --action-border: #ff0070;
   --link-shadow: rgba(255, 0, 111, 0.8);
+  --decorate-rectangle: #ff0070;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,5 +38,7 @@
   --border-style__hover: 1px solid rgba(255, 0, 112, 0.4);
   --action-border: #ff0070;
   --link-shadow: rgba(255, 0, 111, 0.8); 
+  --decorate-rectangle: #ff0070;
+
   }
 }
