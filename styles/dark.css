@@ -12,7 +12,8 @@
   --display-rec: block;
   --background-photo: url(../images/cover-image-dark.png);
   --background-color: #000028;
-  --font-color: #000028;
+  --smooth-font: #000028;
+  --font-color: #FF0070;
   --title-decor: #ff0070;
   --answer-title__color: #000028;
   --answer-description__color: #F1B2CE;
@@ -29,7 +30,8 @@
   --display-rec: block;
   --background-photo: url(../images/cover-image-dark.png);
   --background-color: #000028;
-  --font-color:#000028;
+  --smooth-font: #000028;
+  --font-color: #FF0070;
   --title-decor: #ff0070;
   --answer-title__color: #000028;
   --answer-description__color: #F1B2CE;

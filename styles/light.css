@@ -12,7 +12,8 @@
   --display-rec: none;
   --background-photo: url(../images/cover-image-light.png);
   --background-color: #fff1f7;
-  --font-color: #353430;  
+  --smooth-font: #353430;  
+  --font-color: #353430; 
   --title-decor: #ff8dcb;
   --stylish-text__color: #ffc2e6;
   --answer-title__color: #353430;
@@ -30,7 +31,8 @@
   --display-rec: none;
   --background-photo: url(../images/cover-image-light.png);
   --background-color: #fff1f7;
-  --font-color: #353430;
+  --smooth-font: #353430;
+  --font-color: #353430; 
   --title-decor: #ff8dcb;
   --stylish-text__color: #ffc2e6;
   --answer-title__color: #353430;
