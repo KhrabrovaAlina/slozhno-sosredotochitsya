@@ -12,7 +12,7 @@
   --display-rec: block;
   --background-photo: url(../images/cover-image-dark.png);
   --background-color: #000028;
-  --font-color: #ff0070;
+  --font-color: #000028;
   --title-decor: #ff0070;
   --answer-title__color: #000028;
   --answer-description__color: #F1B2CE;
@@ -29,7 +29,7 @@
   --display-rec: block;
   --background-photo: url(../images/cover-image-dark.png);
   --background-color: #000028;
-  --font-color: #ff0070;
+  --font-color:#000028;
   --title-decor: #ff0070;
   --answer-title__color: #000028;
   --answer-description__color: #F1B2CE;

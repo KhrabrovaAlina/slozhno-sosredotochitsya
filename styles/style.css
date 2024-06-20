@@ -142,7 +142,7 @@
   font-weight: 700;
   color: var(--stylish-text__color);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  text-shadow: 4px 4px 0px var(--shadow, #ff0070);
+  text-shadow: 2px 2px 0px var(--shadow);
   line-height: 82.5%;
 }
 
@@ -195,7 +195,6 @@
 .card__answer {
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
   gap: 11px;
 }
 
@@ -268,7 +267,7 @@
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
-  color: #000028;
+  color: var(--font-color);
   line-height: 23.4px;
 }
 
@@ -283,7 +282,6 @@
 .gallery__list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: minmax(auto, 260px) minmax(auto, 315px) minmax(auto,435px);
   gap: 20px;
   margin-top: 20px;
 }
@@ -324,7 +322,6 @@
   inline-size: 100%;
   block-size: 100%;
 }
-
 
 /* Стили для Footer */
 
@@ -380,6 +377,10 @@
   grid-template-columns: minmax(256px, 156px) minmax(440px, 982px);
 }
 
+.advice__section {
+  grid-template-columns: minmax(336px, 185px) minmax(312px, 692px);
+}
+
 .answer__title {
   margin-top: 18px;
   margin-bottom: 20px;
@@ -400,7 +401,6 @@
 }
 
 .footer {
-  display: grid;
   min-block-size: 1020px;
   align-content: space-between;
   padding: 468px 17px 50px 18px;
@@ -448,7 +448,7 @@
 
 .cause__answer-container {
   gap: 0px;
-  grid-template-columns: minmax(375px, 306px) minmax(150px, 582px);
+  grid-template-columns: minmax(375px, 306px) minmax(150px, 552px);
 }
 
 .answer__description {
@@ -471,6 +471,7 @@
   margin-top: 173px;  
 }
 }
+
 
 /* Стили для экрана с разрешением 745px */
 
