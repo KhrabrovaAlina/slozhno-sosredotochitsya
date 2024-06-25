@@ -20,9 +20,10 @@
   --border-style: 1px solid #ff0070;
   --stylish-text__color: #db00ff;
   --border-style__hover: 1px solid rgba(255, 0, 112, 0.4);
-  --action-border: #ff0070;
+  --action-border: #F1B2CE;
   --link-shadow: rgba(255, 0, 111, 0.8);
   --decorate-rectangle: #ff0070;
+  --shadow: #FF0070;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,10 +38,10 @@
   --answer-description__color: #F1B2CE;
   --border-style: 1px solid #ff0070;
   --stylish-text__color: #db00ff;
-  --border-style__hover: 1px solid #FF0070;;
-  --action-border: #ff0070;
+  --border-style__hover: 1px rgba(255, 0, 112, 0.4);
+  --action-border: #F1B2CE;
   --link-shadow: rgba(255, 0, 111, 0.8); 
   --decorate-rectangle: #ff0070;
-
+  --shadow: #FF0070;
   }
 }
