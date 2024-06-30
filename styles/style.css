@@ -17,7 +17,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
-  padding: 19px 11px 25px 20px;
+  padding: 19px 20px 45px 23px;
   min-block-size: var(--block-size);
 }
 
@@ -38,15 +38,15 @@
   border-top: 1px solid var(--decorate-rectangle,#353430);
   border-right: 1px solid var(--decorate-rectangle,#353430);
   top: 20px;
-  right: 6px;
+  right: 20px;
 }
 
 .decorated-zone::after {
   position: relative;
   border-bottom: 1px solid var(--decorate-rectangle,#353430);
   border-left: 1px solid var(--decorate-rectangle,#353430);
-  top: 8px;
-  left: 3px;
+  top: 28px;
+  right: 2px;
 }
 
 .header__theme-menu-list {
@@ -112,7 +112,7 @@
   content: "rec";
   display: var(--display-rec);
   position: absolute;
-  right: 35px;
+  right: 47px;
   top: 20px;
 }
 
@@ -125,16 +125,16 @@
   border-radius: 50%;
   background-color: var(--font-color);
   box-shadow: 0px 0px 4px 2px var(--font-color);
-  top: 28px;
-  right: 15px;
+  top: 30px;
+  right: 29px;
   inline-size: 9px;
   block-size: 9px;
 }
 
 .title {
   align-self: flex-start;
-  margin-block: 116px;
-  margin-top: 150px;
+  margin-block: 100px;
+  margin-top: 160px;
   margin-left: -20px;
 }
 
@@ -148,7 +148,7 @@
 }
 
 .description {
-  width: calc(100vw - 55%);
+  width: calc(100vw - 54%);
   height: min-content;
   font-weight: 700;
   font-size: 18px;
@@ -157,7 +157,7 @@
   justify-self: end;
   align-self: center;
   line-height: 23.4px;
-  margin-bottom: 82px;
+  margin-bottom: 58px;
 }
 
 .title__decor {
@@ -169,7 +169,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  margin-top: 23px;
+  margin-top: 20px;
 }
 
 .reason__section {
@@ -195,7 +195,11 @@
 .card__answer {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 11px;
+}
+
+.column__answer-container {
+  padding-right: 12px;
 }
 
 .answer__title {
@@ -239,7 +243,7 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
-  margin-block-start: 20px;
+  margin-block-start: 22px;
 }
 
 .cause__answer-container {
@@ -250,8 +254,8 @@
 
 .advice__section {
   display: grid;
-  grid-template-columns: minmax(235px, 345px) minmax(535px, 710px);
-  margin-block-start: 32px;
+  grid-template-columns: minmax(240px, 343px) minmax(560px, 720px);
+  margin-block-start: 33px;
   padding: 10px;
 }
 
@@ -278,9 +282,9 @@
 .gallery {
   display: flex;
   flex-direction: column;
-  margin-block-start: 62px;
+  margin-block-start: 56px;
   padding-left: 20px;
-  padding-right: 5px;
+  padding-right: 20px;
 }
 
 .gallery__list {
@@ -314,10 +318,10 @@
 .footer {
   display: grid;
   margin-block-start: 60px;
-  padding: 175px 5px 0px 19px;
+  padding: 160px 5px 0px 19px;
   align-items: center;
   text-align: center;
-  min-block-size: 791px;
+  min-block-size: 765px;
   inline-size: 100%;
 }
 
@@ -349,7 +353,7 @@
 }
 
 .header__theme-menu {
-  margin-right: 8px;
+  margin-right: 0px;
   margin-top: 172px;
   justify-self: end;
   align-self: center;
@@ -360,8 +364,6 @@
 }   
 
 .description {
-  width: calc(100vw - 55%);
-  margin-bottom: 90px;
   margin-right: 11px;
 }
 
@@ -389,21 +391,22 @@
 
 .advice__section {
   padding: 0px;
-  margin-top: 60px;
-  grid-template-columns: minmax(180px, 255px) minmax(312px, 572px);
+  margin-top: 57px;
+  grid-template-columns: minmax(180px, 265px) minmax(312px, 572px);
 }
 
 .cause__section {
   padding: 0px;
-  margin-top: 60px;
+  margin-top: 58px;
 }
 
 .advice-title {
-  margin-top: 17px;
+  margin-top: 22px;
+  padding-left: 0px;
 }
 
 .answer__title {
-  margin-top: 18px;
+  margin-top: 116px;
   margin-bottom: 10px;
 }
 
@@ -412,12 +415,12 @@
   inline-size: 100%; 
 }
 
-.answer__container {
-  gap: 0px;
+.column__answer-container {
+  padding-right: 0px;
 }
 
 .gallery {
-  margin-block-start: 58px;
+  margin-block-start: 56px;
   top: 20px;
   padding-left: 0;
   padding-right: 0;
@@ -425,14 +428,13 @@
 
 .gallery__list {
   grid-template-rows: minmax(auto, 190px) minmax(auto, 230px) minmax(auto,320px);
-  gap: 20px;
 }
 
 .footer {
   margin-block-start: 40px;
   min-block-size: 1020px;
   align-content: space-between;
-  padding: 318px 7px 20px 17px;
+  padding: 315px 0px 43px 19px;
 }
 
 .decorated-zone::before {
@@ -442,7 +444,6 @@
 
 .decorated-zone::after {
   left: 1px;
-  top: 5px;
 }
 
 }
@@ -456,12 +457,17 @@
 }
 
 .header__theme-menu-list {
-  margin-top: 89px;
-  margin-left: 3px;
+  margin-top: 90px;
 }
 
 .header__theme-menu {
   margin-top: 55px;
+}
+
+.description {
+  margin-right: 0px;
+  width: calc(100vw - 55%);
+  margin-bottom: 54px;
 }
 
 .card__answer {
@@ -474,19 +480,13 @@
   margin-bottom: 0px;
 }
 
-.cause__answer-container {
-  gap: 0px;
-}
-
 .answer__description {
   margin-bottom: 0px;
   display: block;
 }
 
 .section-title {
-  margin-top: 20px;
   grid-row: span 2;
-  max-width: 230px;
 }
 
 .advice__section {
@@ -495,6 +495,7 @@
 
 .title {
   margin-top: 150px;  
+  margin-left: -18px;
 }
 
 }
@@ -570,7 +571,7 @@
 @media (width <= 380px) {
 
 .header {
-  padding: 5px 7px 0px 26px;
+  padding: 8px 7px 0px 30px;
 }
 
 .marker-rec::before {
@@ -590,7 +591,7 @@
     
 .decorated-zone::after {
   top: -9px;
-  left: -16px;
+  left: -20px;
 }
 
 .description {
@@ -602,54 +603,66 @@
 .title {
   margin-block: 0;
   margin-top: 58px;
-  margin-bottom: 32px;
+  margin-bottom: 38px;
 }
     
-.header__theme-menu-list {
-  margin-top: 7px;
-}
-  
-.content {
-  margin-top: 30px;
-  padding: 0px 9px 0px 9px;
-}
-      
-.answer__container {
-  width: 356px;
+.stylish__title {
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
 
+.header__theme-menu-list {
+  margin-top: 0px;
+}
+
+.header__theme-menu {
+  margin-right: 4px;
+}
+
+.content {
+  margin-top: 32px;
+  padding: 0px 9px 0px 9px;
+}   
+
 .reason__section {
-  padding-left: 0px;
-  margin-top: 10px;
-  gap: 4px;
+  padding-left: 0;
+  margin-top: 7px;
+}
+
+.answer__description {
+  padding-right: 7px;
 }
 
 .cause__section {
-  margin-block-start: 46px;
+  margin-block-start: 47px;
 }
 
 .cause__answer-container {
-  gap: 5px;
-  grid-template-columns: minmax(60px, 100px) minmax(100px, 250px);
+  grid-template-columns: minmax(130px, 300px) minmax(150px, 250px);
 }
 
 .section-title {
-  margin-top: 0px;
-  max-width: 300px;
+  margin-top: 2px;
+  max-width: 350px;
 }
     
 .advice-title {
   margin-top: 15px;
-  max-width: 450px;
+  max-width: 350px;
+  padding-left: 2px;
 }
 
 .advice__section {
-  margin-block-start: 27px;
+  margin-block-start: 35px;
   grid-template-columns: none;
 }
 
 .column__answer-container {
-  padding-right: 10px;
+  margin-top: 0px; 
+  padding-right: 0px;
+}
+
+.card__answer {
+  gap: 10px;
 }
 
 .gallery {
@@ -664,16 +677,16 @@
 }
 
 .footer {
-  margin-block-start: 39px;
+  margin-block-start: 41px;
   min-block-size: 665px;
-  padding-top: 225px;
+  padding-top: 228px;
   padding-bottom: 0px;
-  padding-left: 26px;
+  padding-left: 29px;
+  padding-right: 10px;
 }
 
-.column__answer-container {
-  margin-top: 0px; 
-  gap: 10px;
+.stylish__title-footer {
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
 
 }
